@@ -1,0 +1,26 @@
+.main-footer {
+  background-color: #2a3642;
+  padding: 30px 0;
+
+}
+
+.footer-right-col {
+  border-left: 1px solid #32404d;
+}
+
+.footer-right-top-row {
+  border-bottom: 1px solid #32404d;
+}
+
+.main-footer .info-wrapper {
+  color: #fff;
+}
+
+.main-footer .info-wrapper p {
+  font-size: 12px;
+}
+
+.main-footer .info-wrapper h3 {
+  font-size: 15px;
+  /*font-weight: 600;*/
+}
