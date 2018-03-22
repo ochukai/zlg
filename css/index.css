@@ -1,0 +1,71 @@
+.feature-scroll {
+  background-image: url(../imgs/bg.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 50px;
+}
+
+.feature-scroll .feature-item {
+  height: 300px;
+  background-color: #1f5f9d;
+  padding: 15px;
+}
+
+/**/
+
+.service-list {
+  margin-top: -120px;
+  position: relative;
+}
+
+.service-list .bg-image {
+  width: 100%;
+}
+
+.service-list .ab-content-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.service-item {
+  margin: 6px;
+  padding: 20px;
+  text-align: center;
+}
+
+.service-item.blue {
+  color: #fff;
+  background-color: #1f5f9d;
+}
+
+.service-item.gray {
+  color: #fff;
+  background-color: #434f5b;
+}
+
+.service-item.white {
+  color: #000;
+  background-color: #fff;
+}
+
+.new-event-wrapper {
+  text-align: center;
+  margin: 100px;
+}
+
+.new-event-wrapper > h2 {
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.new-event-wrapper > p .date {
+  margin-left: 30px;
+}
+
+.new-event-wrapper > p.active {
+  color: blue;
+}
