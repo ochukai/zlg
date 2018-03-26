@@ -1,0 +1,34 @@
+.aboutus{
+
+}
+
+#aboutus > h1 {
+    margin: 20px 0;
+}
+
+#aboutus .row{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+#aboutus .row h2{
+    margin: 0;
+}
+
+#aboutus .row .col-md-6{
+    padding-left: 0;
+}
+
+#aboutus .row .col-md-6 p {
+    margin-top:20px;
+}
+
+#aboutus .row .col-md-6 img {
+    width: 100%;
+    height: auto;
+}
+
+.types{
+    padding: 20px 0;
+    background: #f6f6f6;
+}
