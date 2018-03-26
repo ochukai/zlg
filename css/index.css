@@ -1,12 +1,17 @@
 /*top*/
-.landing-pic{
+.landing-pic {
   position: relative;
-  background-image: url("../imgs/home/banner.png");
+  /*background-image: url("../imgs/home/banner.png");*/
   background-size: 100% 400px;
   height: 400px;
 }
 
-.landing-pic .small-bar{
+.landing-pic .carousel-inner {
+  height: 100%;
+
+}
+
+.landing-pic .small-bar {
   width: 300px;
   height: 50px;
   line-height: 50px;
@@ -17,14 +22,16 @@
   bottom: 35px;
   right: 250px;
   text-indent: 20px;
+  cursor: pointer;
 }
 
-.landing-pic .small-bar span{
+.landing-pic .small-bar span {
   float: right;
   margin-right: 5px;
   color: yellow;
   font-size: 40px;
 }
+
 /*middle*/
 
 .feature-scroll {
@@ -43,7 +50,7 @@
   background-image: url("../imgs/home/bg-a.png");
 }
 
-.feature-scroll .feature-item.right{
+.feature-scroll .feature-item.right {
   background-image: url("../imgs/home/bg-b.png");
   background-color: #888;
 }
